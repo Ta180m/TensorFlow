@@ -5,5 +5,9 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 
-print(tf.__version__)
- 
+# print(tf.__version__)
+
+# print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+
+print(tf.config.list_physical_devices('GPU'))
+
